@@ -1,0 +1,22 @@
+num of options  7
+
+        Red
+      
+
+        Blue
+      
+
+        Green
+      
+
+        Yellow
+      
+
+        Red
+      
+
+        White
+      
+
+        Green
+      

@@ -1,0 +1,187 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - link "letcode" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "letcode" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Work-Space" [ref=e10] [cursor=pointer]:
+              - /url: /test
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link "Courses" [ref=e15] [cursor=pointer]:
+              - /url: /courses
+            - link "Contact" [ref=e16] [cursor=pointer]:
+              - /url: /contact
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e23]:
+      - heading "Radio & Checkbox" [level=1] [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Select any one
+            - generic [ref=e35]:
+              - generic [ref=e36] [cursor=pointer]:
+                - radio "Yes" [ref=e37]
+                - text: "Yes"
+              - generic [ref=e38] [cursor=pointer]:
+                - radio "No" [ref=e39]
+                - text: "No"
+          - generic [ref=e40]:
+            - generic [ref=e41]: Cofirm you can select only one radio button
+            - generic [ref=e42]:
+              - generic [ref=e43] [cursor=pointer]:
+                - radio "Yes" [ref=e44]
+                - text: "Yes"
+              - generic [ref=e45] [cursor=pointer]:
+                - radio "No" [ref=e46]
+                - text: "No"
+          - generic [ref=e47]:
+            - generic [ref=e48]: Find the bug
+            - generic [ref=e49]:
+              - generic [ref=e50] [cursor=pointer]:
+                - radio "Yes" [ref=e51]
+                - text: "Yes"
+              - generic [ref=e52] [cursor=pointer]:
+                - radio "No" [ref=e53]
+                - text: "No"
+          - generic [ref=e54]:
+            - generic [ref=e55]: Find which one is selected
+            - generic [ref=e56]:
+              - generic [ref=e57] [cursor=pointer]:
+                - radio "Foo" [ref=e58]
+                - text: Foo
+              - generic [ref=e59] [cursor=pointer]:
+                - radio "Bar" [checked] [ref=e60]
+                - text: Bar
+          - generic [ref=e61]:
+            - generic [ref=e62]: Confirm last field is disabled
+            - generic [ref=e63]:
+              - generic [ref=e64] [cursor=pointer]:
+                - radio "Going" [ref=e65]
+                - text: Going
+              - generic [ref=e66] [cursor=pointer]:
+                - radio "Not going" [ref=e67]
+                - text: Not going
+              - generic [ref=e68]:
+                - radio "Maybe" [disabled] [ref=e69]
+                - text: Maybe
+          - generic [ref=e70]:
+            - generic [ref=e71]: Find if the checkbox is selected?
+            - generic [ref=e72] [cursor=pointer]:
+              - checkbox "Remember me" [checked] [ref=e73]
+              - text: Remember me
+          - generic [ref=e74]:
+            - generic [ref=e75]: Accept the T&C
+            - generic [ref=e76] [cursor=pointer]:
+              - checkbox "I agree to the FAKE terms and conditions" [ref=e77]
+              - text: I agree to the FAKE terms and conditions
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - paragraph [ref=e82]: Insight
+            - generic [ref=e85] [cursor=pointer]: 
+          - generic [ref=e87]:
+            - text: On completion of this exercise, you can learn the following concepts.
+            - list [ref=e88]:
+              - listitem [ref=e89]: click()
+              - listitem [ref=e90]: isSelected()
+              - listitem [ref=e91]: isEnabled()
+          - iframe [ref=e95]:
+            - generic [ref=f4e2]:
+              - link:
+                - /url: /channel/UCNcnqL0P17hISKlOxTjkJ0g
+                - img [ref=f4e6] [cursor=pointer]
+              - link "LetCode with Koushik" [ref=f4e7] [cursor=pointer]:
+                - /url: /channel/UCNcnqL0P17hISKlOxTjkJ0g
+              - generic [ref=f4e8]:
+                - button "YouTube" [ref=f4e9] [cursor=pointer]:
+                  - generic "YouTube" [ref=f4e11]
+                - button "41K" [ref=f4e12]
+          - button "Watch tutorial" [ref=e97] [cursor=pointer]
+        - generic [ref=e98]:
+          - generic:
+            - generic:
+              - generic:
+                - insertion
+    - generic [ref=e99]:
+      - insertion [ref=e101]:
+        - generic [ref=e103]:
+          - generic "These are topics related to the article that might interest you" [ref=e104]: Discover more
+          - link "radio" [ref=e105] [cursor=pointer]:
+            - img [ref=e107]
+            - text: radio
+          - link "Radio" [ref=e109] [cursor=pointer]:
+            - img [ref=e111]
+            - text: Radio
+          - link "Software testing Q&A" [ref=e113] [cursor=pointer]:
+            - img [ref=e115]
+            - text: Software testing Q&A
+          - link "Playwright" [ref=e117] [cursor=pointer]:
+            - img [ref=e119]
+            - text: Playwright
+          - link "Programming interview prep" [ref=e121] [cursor=pointer]:
+            - img [ref=e123]
+            - text: Programming interview prep
+          - link "Test automation tools" [ref=e125] [cursor=pointer]:
+            - img [ref=e127]
+            - text: Test automation tools
+          - link "Cypress automation course" [ref=e129] [cursor=pointer]:
+            - img [ref=e131]
+            - text: Cypress automation course
+          - link "Selenium WebDriver training" [ref=e133] [cursor=pointer]:
+            - img [ref=e135]
+            - text: Selenium WebDriver training
+          - link "Ortoni Report software" [ref=e137] [cursor=pointer]:
+            - img [ref=e139]
+            - text: Ortoni Report software
+          - link "Software Testing" [ref=e141] [cursor=pointer]:
+            - img [ref=e143]
+            - text: Software Testing
+      - contentinfo [ref=e145]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - paragraph [ref=e149]: LetCode by Koushik Chatterjee
+            - paragraph [ref=e150]: Empowering Test Automation Engineers through learning
+          - paragraph [ref=e152]:
+            - text: © 2025 LetCode | Created by
+            - link "Koushik Chatterjee" [ref=e153] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ortoni/
+            - text: "&"
+            - link "Bollineni Lakshmi Yaswanth" [ref=e154] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+  - iframe [ref=e155]:
+    
+  - insertion [ref=e156]:
+    - iframe [ref=e159]:
+      - generic [active] [ref=f8e1]:
+        - generic [ref=f8e6]:
+          - link [ref=f8e7] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CCBU92aJcadXFOeff7OsPz9bvSIKenKqEAfyw6v-VFf6dh7mKDhABINORliJg5ZLog9gOoAHEvJS6PsgBCakC7aChoB3JRz6oAwHIA8sEqgTuAU_QpTWwfNzVNtOnsAl_IZd3bbT3ac2UGcLgzbbY4S9Vi1UB4napyWFkCb2DSybLS0XrZVdN5uCs-8nbdzfENwLoK2oOFKg0RJwrQRbGE_UtHavBUNreETV8-SGiUOU8Q1eyBvm_VsSFhJpOiJ0kEPSO0hrhmKHv5C3QWX8lng5AN5CwPi107rIbX08D9pmuhEpoqKKF6ouOZhoUbmpSH8d099Rbl4QFoxJF3hcW5BwSv7m44UOu3CUCVEobfWRreVqV347komFYGNmgw6fic_fVUvxx-JJ2fVnDJ_K0jd9P7d7Ob49-guUOOM0XE9XABLbm0rXBBYgFmZP_lVegBi6AB8T05JkZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYqNqmn5z2kQOxCfhuJ9_OXUipgAoBmAsByAsBgAwBogwDkAEBqg0CSU7IDQHqDRMI0I29n5z2kQMV5y97Bx1P6xsJ8A0CiA4J2BMD0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgLBXBguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIlZaon5z2kQMV5y97Bx1P6xsJEAEYASAAEgLCJvD_BwE&num=1&cid=CAQSvgEAwksa0cSdB7clsMsVy8XVEm_uLNfZXMSorNL_pwGRRWZteFMBmMD0RRYIJD7Y1iwmPU3Q32lsAMdlj8lznDsH-BqdBZdnwkGnimNCunGw4hO22Og4G-yRD1rXaKndBxiIBDPZvMwQUuSggO5IrfzXbUR362vIM144YNq21G8hRc4kJ2y7ZfyUIDpW9QAURnyuuME9AHHUY3uGdb7-BDB6MuYkYUVxU4TvwObDaC3puiJxNT0y45YWyjtHlUSMGAE&sig=AOD64_2p3C323zJA0sAbDLeJ8KtvJhEmrA&client=ca-pub-6251538267574677&rf=1&nb=9&adurl=https://rbikehtahai.rbi.org.in/rbi-sachet-portal.html%3Futm_source%3DGoogle_GDN%26utm_medium%3DCPM%26utm_campaign%3DRBI_Sachet%2BPortal_Google_Display_Awareness_GDN_Oct-25_20256237110044%26utm_term%3DGDN_Hindi%26gad_source%3D5%26gad_campaignid%3D23400008089%26gclid%3DEAIaIQobChMIlZaon5z2kQMV5y97Bx1P6xsJEAEYASAAEgLCJvD_BwE
+            - img [ref=f8e8]
+          - generic [ref=f8e12]:
+            - link "RBI Sachet Portal" [ref=f8e15] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CCBU92aJcadXFOeff7OsPz9bvSIKenKqEAfyw6v-VFf6dh7mKDhABINORliJg5ZLog9gOoAHEvJS6PsgBCakC7aChoB3JRz6oAwHIA8sEqgTuAU_QpTWwfNzVNtOnsAl_IZd3bbT3ac2UGcLgzbbY4S9Vi1UB4napyWFkCb2DSybLS0XrZVdN5uCs-8nbdzfENwLoK2oOFKg0RJwrQRbGE_UtHavBUNreETV8-SGiUOU8Q1eyBvm_VsSFhJpOiJ0kEPSO0hrhmKHv5C3QWX8lng5AN5CwPi107rIbX08D9pmuhEpoqKKF6ouOZhoUbmpSH8d099Rbl4QFoxJF3hcW5BwSv7m44UOu3CUCVEobfWRreVqV347komFYGNmgw6fic_fVUvxx-JJ2fVnDJ_K0jd9P7d7Ob49-guUOOM0XE9XABLbm0rXBBYgFmZP_lVegBi6AB8T05JkZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYqNqmn5z2kQOxCfhuJ9_OXUipgAoBmAsByAsBgAwBogwDkAEBqg0CSU7IDQHqDRMI0I29n5z2kQMV5y97Bx1P6xsJ8A0CiA4J2BMD0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgLBXBguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIlZaon5z2kQMV5y97Bx1P6xsJEAEYASAAEgLCJvD_BwE&num=1&cid=CAQSvgEAwksa0cSdB7clsMsVy8XVEm_uLNfZXMSorNL_pwGRRWZteFMBmMD0RRYIJD7Y1iwmPU3Q32lsAMdlj8lznDsH-BqdBZdnwkGnimNCunGw4hO22Og4G-yRD1rXaKndBxiIBDPZvMwQUuSggO5IrfzXbUR362vIM144YNq21G8hRc4kJ2y7ZfyUIDpW9QAURnyuuME9AHHUY3uGdb7-BDB6MuYkYUVxU4TvwObDaC3puiJxNT0y45YWyjtHlUSMGAE&sig=AOD64_2p3C323zJA0sAbDLeJ8KtvJhEmrA&client=ca-pub-6251538267574677&rf=1&nb=0&adurl=https://rbikehtahai.rbi.org.in/rbi-sachet-portal.html%3Futm_source%3DGoogle_GDN%26utm_medium%3DCPM%26utm_campaign%3DRBI_Sachet%2BPortal_Google_Display_Awareness_GDN_Oct-25_20256237110044%26utm_term%3DGDN_Hindi%26gad_source%3D5%26gad_campaignid%3D23400008089%26gclid%3DEAIaIQobChMIlZaon5z2kQMV5y97Bx1P6xsJEAEYASAAEgLCJvD_BwE
+            - link "सचेत पोर्टल शिकायत दर्ज करने में आपका मार्गदर्शन करता है और उसे सही प्राधिकारियों तक पहुँचाता है।" [ref=f8e19] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CCBU92aJcadXFOeff7OsPz9bvSIKenKqEAfyw6v-VFf6dh7mKDhABINORliJg5ZLog9gOoAHEvJS6PsgBCakC7aChoB3JRz6oAwHIA8sEqgTuAU_QpTWwfNzVNtOnsAl_IZd3bbT3ac2UGcLgzbbY4S9Vi1UB4napyWFkCb2DSybLS0XrZVdN5uCs-8nbdzfENwLoK2oOFKg0RJwrQRbGE_UtHavBUNreETV8-SGiUOU8Q1eyBvm_VsSFhJpOiJ0kEPSO0hrhmKHv5C3QWX8lng5AN5CwPi107rIbX08D9pmuhEpoqKKF6ouOZhoUbmpSH8d099Rbl4QFoxJF3hcW5BwSv7m44UOu3CUCVEobfWRreVqV347komFYGNmgw6fic_fVUvxx-JJ2fVnDJ_K0jd9P7d7Ob49-guUOOM0XE9XABLbm0rXBBYgFmZP_lVegBi6AB8T05JkZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYqNqmn5z2kQOxCfhuJ9_OXUipgAoBmAsByAsBgAwBogwDkAEBqg0CSU7IDQHqDRMI0I29n5z2kQMV5y97Bx1P6xsJ8A0CiA4J2BMD0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgLBXBguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIlZaon5z2kQMV5y97Bx1P6xsJEAEYASAAEgLCJvD_BwE&num=1&cid=CAQSvgEAwksa0cSdB7clsMsVy8XVEm_uLNfZXMSorNL_pwGRRWZteFMBmMD0RRYIJD7Y1iwmPU3Q32lsAMdlj8lznDsH-BqdBZdnwkGnimNCunGw4hO22Og4G-yRD1rXaKndBxiIBDPZvMwQUuSggO5IrfzXbUR362vIM144YNq21G8hRc4kJ2y7ZfyUIDpW9QAURnyuuME9AHHUY3uGdb7-BDB6MuYkYUVxU4TvwObDaC3puiJxNT0y45YWyjtHlUSMGAE&sig=AOD64_2p3C323zJA0sAbDLeJ8KtvJhEmrA&client=ca-pub-6251538267574677&rf=1&nb=7&adurl=https://rbikehtahai.rbi.org.in/rbi-sachet-portal.html%3Futm_source%3DGoogle_GDN%26utm_medium%3DCPM%26utm_campaign%3DRBI_Sachet%2BPortal_Google_Display_Awareness_GDN_Oct-25_20256237110044%26utm_term%3DGDN_Hindi%26gad_source%3D5%26gad_campaignid%3D23400008089%26gclid%3DEAIaIQobChMIlZaon5z2kQMV5y97Bx1P6xsJEAEYASAAEgLCJvD_BwE
+              - text: सचेत पोर्टल शिकायत दर्ज करने में आपका मार्गदर्शन करता है और उसे सही प्राधिकारियों तक
+              - text: पहुँचाता है।
+            - link "Reserve Bank of India" [ref=f8e22] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CCBU92aJcadXFOeff7OsPz9bvSIKenKqEAfyw6v-VFf6dh7mKDhABINORliJg5ZLog9gOoAHEvJS6PsgBCakC7aChoB3JRz6oAwHIA8sEqgTuAU_QpTWwfNzVNtOnsAl_IZd3bbT3ac2UGcLgzbbY4S9Vi1UB4napyWFkCb2DSybLS0XrZVdN5uCs-8nbdzfENwLoK2oOFKg0RJwrQRbGE_UtHavBUNreETV8-SGiUOU8Q1eyBvm_VsSFhJpOiJ0kEPSO0hrhmKHv5C3QWX8lng5AN5CwPi107rIbX08D9pmuhEpoqKKF6ouOZhoUbmpSH8d099Rbl4QFoxJF3hcW5BwSv7m44UOu3CUCVEobfWRreVqV347komFYGNmgw6fic_fVUvxx-JJ2fVnDJ_K0jd9P7d7Ob49-guUOOM0XE9XABLbm0rXBBYgFmZP_lVegBi6AB8T05JkZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYqNqmn5z2kQOxCfhuJ9_OXUipgAoBmAsByAsBgAwBogwDkAEBqg0CSU7IDQHqDRMI0I29n5z2kQMV5y97Bx1P6xsJ8A0CiA4J2BMD0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgLBXBguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIlZaon5z2kQMV5y97Bx1P6xsJEAEYASAAEgLCJvD_BwE&num=1&cid=CAQSvgEAwksa0cSdB7clsMsVy8XVEm_uLNfZXMSorNL_pwGRRWZteFMBmMD0RRYIJD7Y1iwmPU3Q32lsAMdlj8lznDsH-BqdBZdnwkGnimNCunGw4hO22Og4G-yRD1rXaKndBxiIBDPZvMwQUuSggO5IrfzXbUR362vIM144YNq21G8hRc4kJ2y7ZfyUIDpW9QAURnyuuME9AHHUY3uGdb7-BDB6MuYkYUVxU4TvwObDaC3puiJxNT0y45YWyjtHlUSMGAE&sig=AOD64_2p3C323zJA0sAbDLeJ8KtvJhEmrA&client=ca-pub-6251538267574677&rf=1&nb=1&adurl=https://rbikehtahai.rbi.org.in/rbi-sachet-portal.html%3Futm_source%3DGoogle_GDN%26utm_medium%3DCPM%26utm_campaign%3DRBI_Sachet%2BPortal_Google_Display_Awareness_GDN_Oct-25_20256237110044%26utm_term%3DGDN_Hindi%26gad_source%3D5%26gad_campaignid%3D23400008089%26gclid%3DEAIaIQobChMIlZaon5z2kQMV5y97Bx1P6xsJEAEYASAAEgLCJvD_BwE
+          - link "Learn More" [ref=f8e25] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CCBU92aJcadXFOeff7OsPz9bvSIKenKqEAfyw6v-VFf6dh7mKDhABINORliJg5ZLog9gOoAHEvJS6PsgBCakC7aChoB3JRz6oAwHIA8sEqgTuAU_QpTWwfNzVNtOnsAl_IZd3bbT3ac2UGcLgzbbY4S9Vi1UB4napyWFkCb2DSybLS0XrZVdN5uCs-8nbdzfENwLoK2oOFKg0RJwrQRbGE_UtHavBUNreETV8-SGiUOU8Q1eyBvm_VsSFhJpOiJ0kEPSO0hrhmKHv5C3QWX8lng5AN5CwPi107rIbX08D9pmuhEpoqKKF6ouOZhoUbmpSH8d099Rbl4QFoxJF3hcW5BwSv7m44UOu3CUCVEobfWRreVqV347komFYGNmgw6fic_fVUvxx-JJ2fVnDJ_K0jd9P7d7Ob49-guUOOM0XE9XABLbm0rXBBYgFmZP_lVegBi6AB8T05JkZqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcA0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYqNqmn5z2kQOxCfhuJ9_OXUipgAoBmAsByAsBgAwBogwDkAEBqg0CSU7IDQHqDRMI0I29n5z2kQMV5y97Bx1P6xsJ8A0CiA4J2BMD0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgLBXBguIgEA0BgBwhkCCAE&ae=1&gclid=EAIaIQobChMIlZaon5z2kQMV5y97Bx1P6xsJEAEYASAAEgLCJvD_BwE&num=1&cid=CAQSvgEAwksa0cSdB7clsMsVy8XVEm_uLNfZXMSorNL_pwGRRWZteFMBmMD0RRYIJD7Y1iwmPU3Q32lsAMdlj8lznDsH-BqdBZdnwkGnimNCunGw4hO22Og4G-yRD1rXaKndBxiIBDPZvMwQUuSggO5IrfzXbUR362vIM144YNq21G8hRc4kJ2y7ZfyUIDpW9QAURnyuuME9AHHUY3uGdb7-BDB6MuYkYUVxU4TvwObDaC3puiJxNT0y45YWyjtHlUSMGAE&sig=AOD64_2p3C323zJA0sAbDLeJ8KtvJhEmrA&client=ca-pub-6251538267574677&rf=1&nb=8&adurl=https://rbikehtahai.rbi.org.in/rbi-sachet-portal.html%3Futm_source%3DGoogle_GDN%26utm_medium%3DCPM%26utm_campaign%3DRBI_Sachet%2BPortal_Google_Display_Awareness_GDN_Oct-25_20256237110044%26utm_term%3DGDN_Hindi%26gad_source%3D5%26gad_campaignid%3D23400008089%26gclid%3DEAIaIQobChMIlZaon5z2kQMV5y97Bx1P6xsJEAEYASAAEgLCJvD_BwE
+            - generic [ref=f8e26]:
+              - generic [ref=f8e28]: Learn More
+              - generic [ref=f8e29]:
+                - img [ref=f8e30]
+                - img [ref=f8e32]
+        - img [ref=f8e40] [cursor=pointer]
+        - button [ref=f8e42] [cursor=pointer]:
+          - img [ref=f8e43]
+        - iframe
+```
