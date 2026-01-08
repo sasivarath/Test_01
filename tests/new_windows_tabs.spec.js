@@ -17,5 +17,5 @@ await childTab.waitForLoadState();
   await page.bringToFront();
 
 
-await page.pause()
+
 })
